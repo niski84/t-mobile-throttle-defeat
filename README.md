@@ -2,6 +2,8 @@
 
 Here's how I used a raspberry pi to overcome T-mobile throttling. This will enable you to use your home router with many devices connected behind it to access the internet through your T-mobile sim card, without experiencing throttling.
 
+![Image](./images/t-mobile-throttle-defeat.png?raw=true)
+
 ## How t-mobile throttles currently
 TMobile uses the time-to-live value of packets to determine if they have been routed through a phone or originate from the phone itself. To circumvent this, you want your tethered traffic to have the same TTL as phone traffic. The idea is to tether a device capable of overwriting TTL and set it to +1 over what you expect the phone's TTL to be, so that when it is routed by the phone and the TTL is decremented by 1 it is then the expected value.
 
