@@ -4,6 +4,8 @@ Here's how to use a Raspberry Pi to defeat T-Mobile hotspot throttling. This let
 
 > **Note:** This may violate T-Mobile's Terms of Service. This guide is for educational purposes only.
 
+![Image](./images/t-mobile-throttle-defeat.png?raw=true)
+
 ---
 
 ## How T-Mobile throttles
